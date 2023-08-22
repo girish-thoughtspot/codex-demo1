@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
+  console.log(process?.env)
   return (
     <nav style={styles.navbar}>
       <ul style={styles.navbarList}>
